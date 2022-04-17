@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Sun-Wich Delivery</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="Logo\Logo.png">
+  </head>
+
+  <body>
+    <header>
+      <div class="navwrapper">
+        <div class="navbar">
+          <div class="logo">
+            <a href="index.html"><img src="Logo\Logo.png" alt="logo"></a>
+          </div>
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="menu.html">MENU</a></li>
+            <li><a href="promotion.html">PROMOTION</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="contact.html">CONTACT US</a></li>
+            <li><a href="login.html">LOG IN</a></li>
+            <li><a href="register.html">REGISTER</a></li>
+          </ul>
+        </div>
+      </div>
+    </header>
+	<h1 class="menu-title">OUR MENU</h1>
+    <div id="menu" class="menu">
+	  <div class="menu-container">
+      <div class="menu-nav">
+        <a href="#sandwich">
+          <div class="menu-btn" style="background-color:orange">Sandwich</div>
+        </a>
+        <a href="#snacks">
+          <div class="menu-btn">Snacks</div>
+        </a>
+        <a href="#drinks">
+          <div class="menu-btn">Drinks</div>
+        </a>
+      </div>
+      <div class="menu-category">
+        <section class="order-online">
+          <div class="sandwich">
+            <img src="Sandwich\chicken egg.jpg">
+            <h1>Chicken Egg Sandwich <span class="menu-price">RM3.00</span></h1>
+            <p>Chicken fillet & scramble egg sandwich with avocado.<span class="menu-popular">Popular!</span>
+            <p>
+              <button class="orderbtn" onclick="window.location.href='menu.html'">Order</button>
+          </div>
+          <div class="sandwich">
+            <img src="Sandwich\chicken.jpg">
+            <h1>Chicken Sandwich <span class="menu-price">RM2.80</span></h1>
+            <p>Chicken fillet sandwich with tomato sauce and fresh lettuce slices.</p>
+            <button class="orderbtn" onclick="window.location.href='menu.html'">Order</button>
+          </div>
+          <div class="sandwich">
+            <img src="Sandwich\egg.jpg">
+            <h1>Egg Sandwich <span class="menu-price">RM3.00</span></h1>
+            <p>Scrambled egg sandwich with mayonaisse and lettuce seasoned with black pepper.</p>
+            <button class="orderbtn" onclick="window.location.href='menu.html'">Order</button>
+          </div>
+          <div class="sandwich">
+            <img src="Sandwich\ham cheese.jpg">
+            <h1>Ham Cheese Sandwich <span class="menu-price">RM3.20</span></h1>
+            <p>Ham slices and mozzarella cheese sandwich with special sauce.</p>
+            <button class="orderbtn" onclick="window.location.href='menu.html'">Order</button>
+          </div>
+          <div class="sandwich">
+            <img src="Sandwich\ham egg.jpg">
+            <h1>Ham Egg Sandwich <span class="menu-price">RM3.20</span></h1>
+            <p>Ham slices & egg sandwich with tomato sauce and lettuce.</p>
+            <button class="orderbtn" onclick="window.location.href='menu.html'">Order</button>
+          </div>
+          <div class="sandwich">
+            <img src="Sandwich\potato hashbrown.jpg">
+            <h1>Potato Hashbrown Sandwich<span class="menu-price">RM3.80</span></h1>
+            <p>Hashbrown as bread sandwich with cheese and tomato.<span class="menu-popular">Popular!</span></p>
+            <button class="orderbtn" onclick="window.location.href='menu.html'">Order</button>
+          </div>
+          <div class="sandwich">
+            <img src="Sandwich\sausage.jpg">
+            <h1>Sausage Sandwich <span class="menu-price">RM3.80</span></h1>
+            <p>Chicken sausages with cheese slices and caramalized onions.</p>
+            <button class="orderbtn" onclick="window.location.href='menu.html'">Order</button>
+          </div>
+          <div class="sandwich">
+            <img src="Sandwich\tuna.jpg">
+            <h1>Tuna Sandwich <span class="menu-price">RM3.00</span></h1>
+            <p>Tuna sandwich with lettuce, avocado and mayonaisse sauce.</p>
+            <button class="orderbtn" onclick="window.location.href='menu.html'">Order</button>
+          </div>
+        </section>
+		</div>
+      </div>
+    </div>
+    <h1 id="snacks" class="menu-category-title">SNACKS</h1>
+    <div class="menu">
+	<div class="menu-container">
+      <div class="menu-category">
+        <h1><b>Wedges</b> <span class="menu-popular">Popular!</span>
+          <span class="menu-price">RM3.60</span>
+        </h1>
+        <p>Piping hot wedges seasoned with paprika powder.</p>
+        <div class="menu-line"></div>
+        <h1><b>French Fries</b> <span class="menu-price">RM3.00</span></h1>
+        <p>Piping hot fries seasoned with salt & pepper.</p>
+        <div class="menu-line"></div>
+        <h1><b>Banana Cake</b> <span class="menu-popular">Hot!</span>
+          <span class="menu-price">RM4.00</span>
+        </h1>
+        <p>Storemade special banana cake.</p>
+        <div class="menu-line"></div>
+        <h1><b>Hashbrown</b> <span class="menu-price">RM2.20</span></h1>
+        <p>One slice of crispy hashbrown.</p>
+        <button class="orderbtn" onclick="window.location.href='menu.html'">Order</button>
+      </div>
+	</div>
+    </div>
+    <h1 id="drinks" class="menu-category-title">DRINKS</h1>
+    <div class="menu">
+	<div class="menu-container">
+      <div class="menu-category">
+        <h1><b>Ice Coffee</b><span class="menu-price">RM2.20</span></h1>
+        <p>Cold brew to start your day.</p>
+        <div class="menu-line"></div>
+        <h1><b>Teh Tarik</b><span class="menu-price">RM2.00</span></h1>
+        <p>The Malaysia version of coffee.</p>
+        <div class="menu-line"></div>
+        <h1><b>Ice Lemon Tea</b> <span class="menu-popular">Popular!</span>
+          <span class="menu-price">RM2.50</span>
+        </h1>
+        <p>Less sugar ice lemon tea because you deserve it.</p>
+        <button class="orderbtn" onclick="window.location.href='menu.html'">Order</button>
+      </div>
+	</div>
+    </div>
+    <footer class="footer">
+      <div class="footer-left">
+        <h3><span>SUN</span>-WICH<br>DELIVERY</h3>
+        <p class="footer-links">
+          <a href="index.html">HOME</a></li>
+          <a href="menu.html">MENU</a></li>
+          <a href="promotion.html">PROMOTION</a></li>
+          <a href="about.html">ABOUT</a></li>
+          <a href="contact.html">CONTACT US</a></li>
+          <a href="login.html">LOG IN</a></li>
+          <a href="register.html">REGISTER</a></li>
+        </p>
+        <p class="footer-project-name">SUN-WICH DELVERY © 2022</p>
+      </div>
+      <div class="footer-center">
+        <div>
+          <p>Sunway College, 2, Jalan Universiti,<br> Bandar Sunway, 47500, Selangor<br>
+            <span>Boulevard</span>
+          </p>
+        </div>
+      </div>
+      <div class="footer-right">
+        <p class="footer-project-about">
+          <span>About the website</span>
+          In collaboration with Bite and Taste, the famous sandwich cafe in Sunway Campus will deliver their delights with the help of this website.
+        </p>
+      </div>
+    </footer>
+  </body>
+
+</html>
